@@ -1,0 +1,369 @@
+/* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+
+        jssorb03
+
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 13 css */
+        /*
+        .jssora13l                  (normal)
+        .jssora13r                  (normal)
+        .jssora13l:hover            (normal mouseover)
+        .jssora13r:hover            (normal mouseover)
+        .jssora13l.jssora13ldn      (mousedown)
+        .jssora13r.jssora13rdn      (mousedown)
+        .jssora13l.jssora13lds      (disabled)
+        .jssora13r.jssora13rds      (disabled)
+        */
+        .jssora13l, .jssora13r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 50px;
+            cursor: pointer;
+            background: url('img/a13.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora13l { background-position: -10px -35px; }
+        .jssora13r { background-position: -70px -35px; }
+        .jssora13l:hover { background-position: -130px -35px; }
+        .jssora13r:hover { background-position: -190px -35px; }
+        .jssora13l.jssora13ldn { background-position: -250px -35px; }
+        .jssora13r.jssora13rdn { background-position: -310px -35px; }
+        .jssora13l.jssora13lds { background-position: -10px -35px; opacity: .3; pointer-events: none; }
+        .jssora13r.jssora13rds { background-position: -70px -35px; opacity: .3; pointer-events: none}
+
+
+.icons
+{
+  
+  margin-left: 0px;
+
+}
+
+
+.icons span
+{
+  padding-left: 2px;
+  padding: auto;
+  margin-top: 10px;
+  
+}
+
+.nnn ul li
+{
+  
+  margin-left: 10px;
+  color: #b62025;
+}
+
+
+
+
+#nnn1
+{
+  margin-left: 0px;
+}
+
+#nnn2
+{
+  margin-right: 100px;
+}
+
+.txt
+{
+  margin-top: 10px;
+}
+
+
+.double
+{
+  border-style: double;
+  color: #b62025;
+  width: 30%;
+  margin-left: 15px;
+
+}
+.nav1 
+{
+  background-color: #ffffff;
+}
+ul li:hover
+{
+  color: #b62025;
+}
+
+ul li
+{
+  color: #4b4b4b;
+}
+
+
+
+
+.navbar2 ul
+{
+  margin-top: 55px;
+ 
+}
+.hclass1
+{
+  background-color: #e5e5e5;
+  margin-top: 50px;
+}
+.hclass1 h3
+{
+  margin-top: 20px;
+}
+.hclass1 h3 , label
+{
+   color: #b62025;
+
+}
+.bannerborder:before {
+content: url(images/h1.jpg);
+position: absolute;
+left: 42%;
+top: 54px;
+
+}
+
+.hclass2
+{
+  background-color: #f7f7f7;
+}
+.abc 
+{
+    font-size: 20px;
+    
+ }
+.abc:hover
+{
+   background-color: #b62025;
+   height: 40px;
+
+}
+.heading img
+{
+   margin-top: 40px;
+
+
+}
+
+.heading h2
+{
+  margin-left: 0px;
+  color: #b62025;
+  font-size: 35px
+  
+}
+.heading
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.xyz button
+{
+   background-color: #b62025;
+   color: white;
+}
+.xyz h3
+{
+  color: #b62025;
+  margin-top: 0px;
+}
+.xyz img
+{
+  height: 160px;
+}
+.banner
+{
+  background-image:url(images/bannerbg.png);
+  margin-top:50px;
+  margin-bottom:50px;
+  height: auto;
+}
+.bannerborder
+{
+  border-style: double;
+
+  color: #ffffff;
+  margin: 25px;
+  height: auto;
+  text-align: center;
+  
+}
+.bannerborder h1
+{
+  border: 1px solid black;
+   background-color: #b62025;
+
+}
+.bannerborder p ,h3
+{
+ margin-top: 20px;
+
+}
+
+
+  .jssorb03 {
+            position: absolute;
+        }
+        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 21px;
+            height: 21px;
+            text-align: center;
+            line-height: 21px;
+            color: white;
+            font-size: 12px;
+            background: url('img/b03.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+       
+
+        /* jssor slider arrow navigator skin 03 css */
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        .jssora03l.jssora03ldn      (disabled)
+        .jssora03r.jssora03rdn      (disabled)
+        */
+        .jssora03l, .jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a03.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora03l { background-position: -3px -33px; }
+        .jssora03r { background-position: -63px -33px; }
+        .jssora03l:hover { background-position: -123px -33px; }
+        .jssora03r:hover { background-position: -183px -33px; }
+        .jssora03l.jssora03ldn { background-position: -243px -33px; }
+        .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        .jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+    
+
+
+@media(max-width:892px)
+{
+   .bannerborder:before
+   {
+    content: url(images/h1.jpg);
+    position: absolute;
+    left: 42%;
+    top: 5px;
+    border: 1px solid black;
+   }
+
+
+
+}
+
+@media(max-width:768px)
+{
+  .double
+   {
+  border-style: double;
+  color: #b62025;
+  width: 90%;
+  margin-left: 15px;
+ 
+   }
+   .double img
+   {
+     width: 90%;
+
+
+   }
+   .bannerborder:before
+   {
+    content: url(images/h1.jpg);
+    position: absolute;
+    left: 12%;
+    top: 400px;
+
+   }
+
+} 
+
+
+
+
+
+@media(max-width:480px)
+{
+  .double
+  {
+   border-style: double;
+    color: #b62025;
+  width: 90%;
+  margin-left: 15px;
+  backgroung-color:black;
+  }
+.bannerborder:before
+ {
+content: url(images/h1.jpg);
+position: absolute;
+left: 27%;
+top: 0px;
+
+ }
+}
+
+@media(max-width:360px)
+{
+ .banner img
+ {
+  display: hidden!important;
+  border: 1px solid black;
+  visibility: hidden;
+ }
+  .bannerborder:before
+ {
+content: url(images/h1.jpg);
+position: absolute;
+left: 12%;
+top: 0px;
+
+ }
+
+
+
+}
